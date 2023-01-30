@@ -1,0 +1,38 @@
+.navBarH {
+  height: 83vh;
+  margin: 0px;
+}
+
+.bgColor {
+  background-color: #0c86f7;
+}
+
+.buttonB {
+  font-size: 16px;
+  border-radius: 5px;
+  outline: none;
+  color: black;
+  margin: auto;
+  padding: 12px 40px;
+  position: relative;
+  transform: translateZ(0);
+  animation-name: moveUp;
+  animation-duration: 1s;
+  cursor: pointer;
+}
+
+.buttonB:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #052142 !important;
+  transform: scaleX(0);
+  transition: 300ms ease-out;
+}
+.buttonB:hover:before {
+  transform: scaleX(1);
+}
