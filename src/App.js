@@ -10,7 +10,10 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
-      <div className="d-flex w-100" style={{ backgroundColor: "#052142" }}>
+      <div
+        className="container-fluid d-flex w-100"
+        style={{ backgroundColor: "#052142" }}
+      >
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />

@@ -7,21 +7,27 @@ const Footer = () => {
     <footer class="page-footer font-small mdb-color lighten-3 pt-4 bgFooter">
       <div className="d-flex justify-content-center">
         <div>
-          <div className="m-2">
-            <Linkedin color="white" size={40} />
-          </div>
+          <a href="https://www.linkedin.com/in/andresgarzons/" target="_blank">
+            <div className="m-2 socialMedia">
+              <Linkedin className="socialMedia" size={40} />
+            </div>
+          </a>
         </div>
 
         <div>
-          <div className="m-2">
-            <Github color="white" size={40} />
-          </div>
+          <a href="https://github.com/agarzonsanchez" target="_blank">
+            <div className="m-2">
+              <Github className="socialMedia" size={40} />
+            </div>
+          </a>
         </div>
 
         <div>
-          <div className="m-2">
-            <Twitter color="white" size={40} />
-          </div>
+          <a href="https://twitter.com/AndresGSan" target="_blank">
+            <div className="m-2 socialMedia">
+              <Twitter className="socialMedia" size={40} />
+            </div>
+          </a>
         </div>
       </div>
 
