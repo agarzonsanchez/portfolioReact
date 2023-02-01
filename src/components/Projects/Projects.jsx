@@ -18,7 +18,7 @@ const Projects = () => {
               autoStart: true,
               loop: true,
               delay: 40,
-              strings: ["My Projects..."],
+              strings: ["MY PROJECTS..."],
             }}
           />
           <p className="text-white textCard">
@@ -36,7 +36,7 @@ const Projects = () => {
                 <h5 className="card-title text-black">
                   <strong>Paranoid Bikes</strong>
                 </h5>
-                <p className="card-text textRespon">
+                <p className="card-text textRespon text-black">
                   This project is an e-commerce website for bikes created with
                   React, Redux Tool Kit, Express, Bulma, and Mongo DB.
                 </p>
@@ -60,7 +60,7 @@ const Projects = () => {
                 <h5 className="card-title text-black">
                   <strong>Coljuridica</strong>
                 </h5>
-                <p className="card-text textRespon">
+                <p className="card-text textRespon text-black">
                   Lawyer company landing page to catch future customer
                   attention. Created with React, Bootstrap, and React Router
                   DOM.
@@ -85,7 +85,7 @@ const Projects = () => {
                 <h5 className="card-title text-black">
                   <strong>Pokedex</strong>
                 </h5>
-                <p className="card-text textRespon">
+                <p className="card-text textRespon text-black">
                   The pokedex webpage shows information about pokemons and their
                   principal features. It was created with React, Node, and
                   PostgreSQL.

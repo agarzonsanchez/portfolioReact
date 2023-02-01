@@ -12,7 +12,7 @@ const Skills = () => {
               autoStart: true,
               loop: true,
               delay: 40,
-              strings: ["My Skills..."],
+              strings: ["MY SKILLS..."],
             }}
           />
         </div>

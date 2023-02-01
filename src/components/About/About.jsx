@@ -11,7 +11,7 @@ const About = () => {
             autoStart: true,
             loop: true,
             delay: 40,
-            strings: ["Who I am..."],
+            strings: ["WHO I AM..."],
           }}
         />
         <p className="text-white ">

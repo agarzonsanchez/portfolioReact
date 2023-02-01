@@ -44,7 +44,7 @@
   border: 2px solid white;
   border-radius: 5px;
   outline: none;
-  background-color: #11cf90;
+  background-color: #46b5d1;
   color: black;
   padding: 12px 25px;
   position: relative;
@@ -62,7 +62,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #eeff00;
+  background-color: #515585;
   transform: scaleX(0);
   transition: 300ms ease-out;
 }

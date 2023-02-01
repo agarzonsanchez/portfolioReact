@@ -33,8 +33,7 @@ const Contact = () => {
       <ToastContainer />
       <div className="m-5 col-4 divRes">
         <h3 className="text-white textResponsive">
-          You have something I can work on... <br /> Please don't hesite to
-          reach out
+          You have something I can work on...
         </h3>
       </div>
       <form ref={form} onSubmit={sendEmail} className="m-5 formDiv">
