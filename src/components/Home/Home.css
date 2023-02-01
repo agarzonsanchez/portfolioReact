@@ -102,10 +102,10 @@
     trnasform: translate(0);
   }
 }
-/* 
+
 @media screen and (max-width: 1100px) {
   .home-intro {
-    width: 90vw; 
+    width: 90vw;
     height: 80vh;
     display: flex;
     justify-content: center;
@@ -137,12 +137,15 @@
 
 @media screen and (max-width: 600px) {
   .home-intro {
-    font-size: 30px;
+    font-size: 20px;
   }
   .text {
-    font-size: 30px;
+    font-size: 20px;
   }
   .button {
     padding: 6px 12px;
   }
-} */
+  .home {
+    margin-left: 5px;
+  }
+}

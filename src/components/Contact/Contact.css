@@ -1,0 +1,12 @@
+@media screen and (max-width: 600px) {
+  .textResponsive {
+    font-size: 20px;
+    margin-top: 50px;
+  }
+  .divRes {
+    width: 150px;
+  }
+  .formDiv {
+    margin-top: 0px;
+  }
+}

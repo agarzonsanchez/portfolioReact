@@ -3,6 +3,7 @@ import emailjs from "@emailjs/browser";
 import { Person, Envelope } from "react-bootstrap-icons";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import "./Contact.css";
 const Contact = () => {
   const form = useRef();
 
@@ -28,15 +29,15 @@ const Contact = () => {
       );
   };
   return (
-    <div className="col p-8 d-flex justify-content-center align-items-center">
+    <div className="col p-8 d-flex flex-wrap justify-content-center align-items-center divTotal">
       <ToastContainer />
-      <div className="m-5 col-4">
-        <h3 className="text-white">
+      <div className="m-5 col-4 divRes">
+        <h3 className="text-white textResponsive">
           You have something I can work on... <br /> Please don't hesite to
           reach out
         </h3>
       </div>
-      <form ref={form} onSubmit={sendEmail} className="m-5">
+      <form ref={form} onSubmit={sendEmail} className="m-5 formDiv">
         {/* name */}
 
         <label for="exampleInputEmail1" className="text-white">

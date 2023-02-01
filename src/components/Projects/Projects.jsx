@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Github } from "react-bootstrap-icons";
+import "./Project.css";
+import Typewriter from "typewriter-effect";
 
 const Projects = () => {
   const [image] = useState({
@@ -9,10 +11,19 @@ const Projects = () => {
   });
   return (
     <>
-      <div className="col p-5 d-flex justify-content-center align-items-center aboutDiv">
-        <div className="col-8">
-          <h2 className="titleVG">My Projects</h2>
-          <p className="text-white">Take a look what I've worked before</p>
+      <div className="d-flex justify-content-center align-items-center projectDiv">
+        <div className="col-10 textProject">
+          <Typewriter
+            options={{
+              autoStart: true,
+              loop: true,
+              delay: 40,
+              strings: ["My Projects..."],
+            }}
+          />
+          <p className="text-white textCard">
+            Take a look what I've worked before
+          </p>
 
           <div className="d-flex flex-wrap">
             <div className="card m-2" style={{ width: "250px" }}>
@@ -22,10 +33,10 @@ const Projects = () => {
                 alt="Paranoid Bikes"
               />
               <div className="card-body">
-                <h5 className="card-title">
+                <h5 className="card-title text-black">
                   <strong>Paranoid Bikes</strong>
                 </h5>
-                <p className="card-text">
+                <p className="card-text textRespon">
                   This project is an e-commerce website for bikes created with
                   React, Redux Tool Kit, Express, Bulma, and Mongo DB.
                 </p>
@@ -46,17 +57,17 @@ const Projects = () => {
                 alt="Paranoid Bikes"
               />
               <div className="card-body">
-                <h5 className="card-title">
+                <h5 className="card-title text-black">
                   <strong>Coljuridica</strong>
                 </h5>
-                <p className="card-text">
+                <p className="card-text textRespon">
                   Lawyer company landing page to catch future customer
                   attention. Created with React, Bootstrap, and React Router
                   DOM.
                 </p>
                 <div>
                   <a href="https://github.com/agarzonsanchez" target="_blank">
-                    <div className="m-2">
+                    <div className="m-2 ">
                       <Github color="black" size={40} />
                     </div>
                   </a>
@@ -71,10 +82,10 @@ const Projects = () => {
                 alt="Paranoid Bikes"
               />
               <div className="card-body">
-                <h5 className="card-title">
+                <h5 className="card-title text-black">
                   <strong>Pokedex</strong>
                 </h5>
-                <p className="card-text">
+                <p className="card-text textRespon">
                   The pokedex webpage shows information about pokemons and their
                   principal features. It was created with React, Node, and
                   PostgreSQL.

@@ -11,7 +11,7 @@ const Home = () => {
     image: "/images/profile1.jpg",
   });
   return (
-    <div className="mw-100 d-flex justify-content-center align-items-center flex-shrink home">
+    <div className="mw-100 d-flex justify-content-center align-items-center flex-shrink home flex-wrap">
       <div className="text">
         <div>
           <h1>

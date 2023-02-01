@@ -3,6 +3,13 @@
   margin: 0px;
 }
 
+@media screen and (max-width: 1000px) {
+  .navBarH {
+    height: 120vh;
+    width: 75px;
+  }
+}
+
 .bgColor {
   background-color: #0c86f7;
 }
