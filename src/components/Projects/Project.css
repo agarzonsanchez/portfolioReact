@@ -1,0 +1,16 @@
+.projectDiv {
+  background-color: #052142;
+  width: 1000px;
+}
+.textProject {
+  color: white;
+}
+@media screen and (max-width: 600px) {
+  .textRespon {
+    display: none;
+  }
+
+  .textCard {
+    font-size: 12px;
+  }
+}

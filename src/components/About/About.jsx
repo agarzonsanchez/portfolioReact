@@ -1,15 +1,23 @@
 import React from "react";
 import "./About.css";
+import Typewriter from "typewriter-effect";
 
 const About = () => {
   return (
-    <div className="col p-5 d-flex justify-content-center align-items-center aboutDiv">
-      <div className="col-8">
-        <h2 className="titleVG">Who I am ...</h2>
-        <p className="text-white">
+    <div className="col p-6 d-flex justify-content-center align-items-center aboutDiv">
+      <div className="col-8 textAbout">
+        <Typewriter
+          options={{
+            autoStart: true,
+            loop: true,
+            delay: 40,
+            strings: ["Who I am..."],
+          }}
+        />
+        <p className="text-white ">
           Passionated web developer and network engineer.
         </p>
-        <p className="text-white">
+        <p className="text-white textAboutRes">
           I'm a front-end developer based in Toronto with a unique background in
           computer sciences and network engineering in Canada and Latin America.
           My experience is diverse with 4 years in IT and everything related to

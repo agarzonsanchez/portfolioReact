@@ -1,3 +1,6 @@
+.textAbout {
+  color: white;
+}
 .aboutDiv {
   background-color: #052142;
   height: 83vh;
@@ -28,5 +31,11 @@
   }
   to {
     border-right-color: transparent;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .textAboutRes {
+    font-size: 12px;
   }
 }

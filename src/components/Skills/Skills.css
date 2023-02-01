@@ -1,3 +1,7 @@
+.textSkills {
+  color: white;
+}
+
 .skillsDiv {
   background-color: #052142;
   height: 83vh;
@@ -30,5 +34,28 @@
   }
   to {
     border-right-color: transparent;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .imageResponsive {
+    width: 35px;
+  }
+  .divBig {
+    padding: none;
+  }
+  .titleStyle {
+    font-size: 30px;
+    width: 200px !important;
+  }
+  .textRes {
+    font-size: 10px;
+  }
+  .divG {
+    width: 200px;
+  }
+  .marRes {
+    margin-top: 230px;
+    width: 100px;
   }
 }
